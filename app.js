@@ -33,8 +33,9 @@ var result= ' '
 result=language;
 
 document. write(result);
+var option = prompt (' do you want HTML or CSS language?');
 
-/*while (option ==='HTML' && option==='CSS'){
+while (option !=='HTML' && option!=='CSS'){
     option= prompt('please choose either HTML or CSS')
 }
 
@@ -46,9 +47,9 @@ if (option === 'HTML'){
 
 
 var message=' ';
-var result= ' '; */
+var result= ' ';
 
-var option = prompt (' do you want HTML or CSS language?');
+
 
 
 /* var FontWeight = prompt('How would the font shape look like?');
@@ -61,8 +62,8 @@ if (FontWeight == 'normal') {
 } else {
     message = 'The font shape is thicker'
 }   */
-/* document.write('<h2>' + message +'</h2>');    
-document.write(result);*/
+ document.write('<h2>' + message +'</h2>');    
+document.write(result);
 
 
 
