@@ -1,13 +1,5 @@
-console.log('Hello');
-var userName = 'Reem';
-//console.log(userName);
-//alert('welcome in CSS');
-//var message = ' '
-
-
 alert('programming languages option');
 var level= prompt('what is your progmming level')
-
 
 if (level=="junior"){
     document.write(' you are a junior programmer')
@@ -18,7 +10,6 @@ else if (level == 'senior'){
     document.write('this page for programming learn')
 }
 
-
 var language=' ';
 if (level === 'junior'){
     language='<img src="html.png"/>';
@@ -26,6 +17,9 @@ if (level === 'junior'){
 } else if (level === 'senior'){
     language= '<img src="CSS.png"/>';
 }
+
+var message=' ';
+var result= ' ';
 
 document.write(language);
 var result= ' '
@@ -44,29 +38,4 @@ if (option === 'HTML'){
 } else if (option ==="CSS"){
     language='<img src="CODING-SCHOOL/CSS.png/>'
 }
-
-
-var message=' ';
-var result= ' ';
-
-
-
-
-/* var FontWeight = prompt('How would the font shape look like?');
-console.log(FontWeight);
-if (FontWeight == 'normal') {
-    message = 'The font shape is normal'
-
-} else if (FontWeight == 'bold') {
-    message = 'The font shape is thick'
-} else {
-    message = 'The font shape is thicker'
-}   */
- document.write('<h2>' + message +'</h2>');    
-document.write(result);
-
-
-
-
-
 

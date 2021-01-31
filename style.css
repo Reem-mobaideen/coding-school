@@ -1,0 +1,41 @@
+ 
+*{
+    margin: 0;
+}
+header {
+    background-color: rgb(154, 140, 218);
+    margin: 40px 50PX 40PX 70PX;
+}
+header h1{
+    margin: 30px 50px 30px 50px;
+    text-shadow:wheat;
+    text-decoration: wavy;
+    text-align: center;
+
+}
+
+header nav ul{
+    list-style: none;
+}
+
+img{
+    width: 40%;
+    margin: 35px;
+    margin-left: 35px;
+    
+}
+
+#mainParagraph{
+    color: rgb(40, 97, 255);
+    background-color: yellow;
+    border-color: rgb(187, 103, 51);
+    margin: 30px;
+
+}
+.detailsParagraph{
+    color: rgb(45, 123, 240);
+ background-color: yellow;
+    margin: 30px;
+background-color: rgb(242, 243, 182));
+
+}

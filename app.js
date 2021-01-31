@@ -1,11 +1,11 @@
 console.log('Hello');
 var userName = 'Reem';
-//console.log(userName);
-//alert('welcome in CSS');
-//var message = ' '
+console.log(userName);
+alert('welcome in CSS');
+var message = ' '
 
 
-alert('programming languages option');
+/* alert('programming languages option');
 var level= prompt('what is your progmming level')
 
 
@@ -32,41 +32,45 @@ var result= ' '
 
 result=language;
 
-document. write(result);
+document. write(result);*/
+
 var option = prompt (' do you want HTML or CSS language?');
 
 while (option !=='HTML' && option!=='CSS'){
     option= prompt('please choose either HTML or CSS')
 }
 
-if (option === 'HTML'){
-    language =' <img src="CODING-SCHOOL/html.png"/>'
-} else if (option ==="CSS"){
-    language='<img src="CODING-SCHOOL/CSS.png/>'
+function codinglanguage() {
+    var language=' ';
+
+    var level= prompt('what is your progmming level');
+    console.log (level);
+
+    if (option === 'HTML'){
+        language =' <img src="CODING-SCHOOL/html.png"/>'
+    } else if (option ==="CSS"){
+        language='<img src="CODING-SCHOOL/CSS.png/>'
+    } 
+//code    
+var message=' ';
+if (level =="junior"){
+    message=' you are a junior programmer';
+}
+else if (level == 'senior'){
+    message='you are senior programmer';
+} else{
+    message='this page for programming learn';
+
 }
 
 
-var message=' ';
-var result= ' ';
+return document.write(message);
+}
 
+var result= '';
+var levelnumber =prompt('how many level you want to learn');
 
-
-
-/* var FontWeight = prompt('How would the font shape look like?');
-console.log(FontWeight);
-if (FontWeight == 'normal') {
-    message = 'The font shape is normal'
-
-} else if (FontWeight == 'bold') {
-    message = 'The font shape is thick'
-} else {
-    message = 'The font shape is thicker'
-}   */
- document.write('<h2>' + message +'</h2>');    
-document.write(result);
-
-
-
-
-
-
+for(var i=0; i<levelnumber; i++){
+    console.log(i);
+    result=result + language;
+}
